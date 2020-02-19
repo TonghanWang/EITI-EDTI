@@ -3,7 +3,7 @@
 
 ## Note
  This codebase accompanies the paper [Influence-Based Multi-Agent Exploration](https://openreview.net/forum?id=BJgy96EYvr&noteId=BJgy96EYvr), 
- and is based on the PPO2 implementation provided by [OpenAI Baselines](https://github.com/openai/baselines) codebase.
+ and is based on the PPO2 implementation provided by the [OpenAI Baselines](https://github.com/openai/baselines) codebase.
 
 ## Run an experiment 
 

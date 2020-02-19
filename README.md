@@ -23,12 +23,8 @@ python run.py
 --num_env=32
 --gamma_dec=10.
 --gamma_cen=0
---gamma_coor_r_e=0.1
 --gamma_coor_tv_e=0.1
---gamma_coor_r_c=0.1
 --gamma_coor_tv_c=1.
---gamma_coor_r=1.
---gamma_coor_tv=1.
 --gamma_coor_t=0
 --tv
 --s_data_gather
@@ -37,10 +33,9 @@ python run.py
 --s_try_num=1
 ```
 
-```math
-a_1
-```
-
+gamma_coor_tv_e      betah<sub>ext</sub>
+gamma_coor_tv_c=1    beta_int
+gamma_coor_t         beta_T
 # Requirements
 - TensorFlow >= 1.4.0
 - TensorFlow < 2.0.0

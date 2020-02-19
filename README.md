@@ -33,7 +33,7 @@ python run.py
 --s_try_num=1
 ```
 
-gamma_coor_tv_e      betah<sub>ext</sub>
+gamma_coor_tv_e      &beta;<sub>ext</sub>
 gamma_coor_tv_c=1    beta_int
 gamma_coor_t         beta_T
 # Requirements

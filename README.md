@@ -33,9 +33,11 @@ python run.py
 --s_try_num=1
 ```
 
-Here, `gamma_dec` (or `gamma_cen`) is `&eta`; in the paper, `gamma_coor_tv_e` is `&beta;<sub>ext</sub>`, `gamma_coor_tv_c` is `&beta;<sub>int</sub>`, and `gamma_coor_t` is `&beta;<sub>T</sub>`. (See )
+Here, `gamma_dec` (or `gamma_cen`) is &eta; in the paper, `gamma_coor_tv_e` is &beta;<sub>ext</sub>, `gamma_coor_tv_c` is &beta;<sub>int</sub>, and `gamma_coor_t` is &beta;<sub>T</sub>. (See Table 2 on page 20 of the paper for the specific values.)
 
-To run EITI, specify the option `--t`. To tun EDTI, specify the option `--r_tv`.
+To run EITI, specify the option `--t`. 
+
+To tun EDTI, specify the option `--r_tv`.
 
 # Requirements
 - TensorFlow >= 1.4.0

@@ -26,7 +26,7 @@ python run.py
 --gamma_coor_tv_e=0.1
 --gamma_coor_tv_c=1.
 --gamma_coor_t=0
---tv
+--r_tv
 --s_data_gather
 --s_alg_name=coor_tv
 --s_data_path=$DATA_PATH

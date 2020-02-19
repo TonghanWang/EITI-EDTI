@@ -2,12 +2,12 @@
 # Influence-Based Multi-Agent Exploration
 
 ## Note
- This codebase accompanies paper submission [Influence-Based Multi-Agent Exploration](https://openreview.net/forum?id=BJgy96EYvr&noteId=BJgy96EYvr), 
- and is based on the implementation of PPO2 open-sourced in the [OpenAI Baselines](https://github.com/openai/baselines) codebase.
+ This codebase accompanies the paper [Influence-Based Multi-Agent Exploration](https://openreview.net/forum?id=BJgy96EYvr&noteId=BJgy96EYvr), 
+ and is based on the PPO2 implementation provided by [OpenAI Baselines](https://github.com/openai/baselines) codebase.
 
 ## Run an experiment 
 
-In the folder `baselines/`, the following command shows how to train EDIT on the task *pass*.
+In the folder `baselines/`, run the following command to train EDIT on the task *pass*.
 
 ```shell
 python run.py

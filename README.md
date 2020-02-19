@@ -37,6 +37,8 @@ python run.py
 --s_try_num=1
 ```
 
+$a_1$
+
 # Requirements
 - TensorFlow >= 1.4.0
 - TensorFlow < 2.0.0

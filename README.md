@@ -33,9 +33,8 @@ python run.py
 --s_try_num=1
 ```
 
-gamma_coor_tv_e      &beta;<sub>ext</sub>
-gamma_coor_tv_c=1    beta_int
-gamma_coor_t         beta_T
+Here, gamma_dec (or gamma_cen) is &eta; in the paper, gamma_coor_tv_e is &beta;<sub>ext</sub>, gamma_coor_tv_c id &beta;<sub>int</sub>, and gamma_coor_t is &beta;<sub>T</sub>. 
+
 # Requirements
 - TensorFlow >= 1.4.0
 - TensorFlow < 2.0.0

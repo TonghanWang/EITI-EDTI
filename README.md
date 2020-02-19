@@ -37,7 +37,9 @@ python run.py
 --s_try_num=1
 ```
 
-$a_1$
+```math
+a_1
+```
 
 # Requirements
 - TensorFlow >= 1.4.0

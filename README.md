@@ -2,7 +2,7 @@
 # Influence-Based Multi-Agent Exploration
 
 ## Note
- This codebase accompanies paper submission "Influence-Based Multi-Agent Exploration", 
+ This codebase accompanies paper submission [Influence-Based Multi-Agent Exploration](https://openreview.net/forum?id=BJgy96EYvr&noteId=BJgy96EYvr), 
  and is based on the implementation of PPO2 open-sourced in the [OpenAI Baselines](https://github.com/openai/baselines) codebase.
 
 ## Run an experiment 
@@ -33,7 +33,9 @@ python run.py
 --s_try_num=1
 ```
 
-Here, gamma_dec (or gamma_cen) is &eta; in the paper, gamma_coor_tv_e is &beta;<sub>ext</sub>, gamma_coor_tv_c id &beta;<sub>int</sub>, and gamma_coor_t is &beta;<sub>T</sub>. 
+Here, `gamma_dec` (or `gamma_cen`) is `&eta`; in the paper, `gamma_coor_tv_e` is `&beta;<sub>ext</sub>`, `gamma_coor_tv_c` is `&beta;<sub>int</sub>`, and `gamma_coor_t` is `&beta;<sub>T</sub>`. (See )
+
+To run EITI, specify the option `--t`. To tun EDTI, specify the option `--r_tv`.
 
 # Requirements
 - TensorFlow >= 1.4.0

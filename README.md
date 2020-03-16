@@ -33,7 +33,7 @@ python run.py
 --s_try_num=1
 ```
 
-Here, `gamma_dec` (or `gamma_cen`) is &eta; in the paper, `gamma_coor_tv_e` is &beta;<sub>ext</sub>, `gamma_coor_tv_c` is &beta;<sub>int</sub>, and `gamma_coor_t` is &beta;<sub>T</sub>. (See Table 2 on page 20 of the paper for the specific values.)
+Here, `gamma_dec` (or `gamma_cen`) is &eta; in the paper, `gamma_coor_tv_e` is &beta;<sub>ext</sub>, `gamma_coor_tv_c` is &beta;<sub>int</sub>, and `gamma_coor_t` is &beta;<sub>T</sub>. (See Table 2 on page 20 of the paper for the specific values for each task.)
 
 To run EITI, specify the option `--t`. 
 
